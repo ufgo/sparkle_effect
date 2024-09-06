@@ -10,7 +10,6 @@ void main()
 {
     vec4 color1 = vec4(1, 1, 1, 1.);
     vec4 color2 = vec4(2.0, 2.0, 2.0, 1.);
-    vec4 color3 = vec4(1, 0.5, 0.5, 1.);
 
     float x = var_texcoord0.x;
     float y = var_texcoord0.y;
