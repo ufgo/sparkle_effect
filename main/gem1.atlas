@@ -1,0 +1,4 @@
+images {
+  image: "/main/gem1.png"
+}
+extrude_borders: 2

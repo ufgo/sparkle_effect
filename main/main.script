@@ -1,0 +1,5 @@
+function init(self)
+	--shader animation
+	local url = msg.url(nil, go.get_id(), "sprite")
+	go.animate(url, "pos.x", go.PLAYBACK_LOOP_FORWARD, 0.8, go.EASING_INSINE, 0.7)
+end
